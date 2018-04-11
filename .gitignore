@@ -3,5 +3,7 @@ build/
 *.iml
 .gradle/
 backend/build/
-backend/out/
+backend/api/build/
+backend/component/build/
+backend/component/out/
 target/

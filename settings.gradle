@@ -1,2 +1,5 @@
-rootProject.name = 'Full-Stack'
-include ":backend"
+rootProject.name = 'fullstack-kotlin'
+include 'backend'
+include 'backend:api'
+include 'backend:component'
+rootProject.buildFileName = 'build.gradle.kts'
