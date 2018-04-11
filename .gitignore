@@ -1,0 +1,7 @@
+build/
+.idea/
+*.iml
+.gradle/
+backend/build/
+backend/out/
+target/
