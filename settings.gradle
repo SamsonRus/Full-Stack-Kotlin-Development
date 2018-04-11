@@ -1,0 +1,2 @@
+rootProject.name = 'Full-Stack'
+include ":backend"

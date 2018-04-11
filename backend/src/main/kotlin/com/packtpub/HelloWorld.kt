@@ -1,5 +1,10 @@
 package com.packtpub
 
-fun main(args: Array<String>) {
-    println("Hello World")
+import org.springframework.stereotype.Service
+
+@Service
+open class HelloWorld {
+    fun sayHello() {
+        println("Hello World")
+    }
 }
