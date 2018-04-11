@@ -5,7 +5,7 @@ import org.springframework.context.support.GenericApplicationContext
 import org.springframework.context.support.beans
 
 @Configuration
-open class HelloWorldConfig(ctx: GenericApplicationContext) {
+class HelloWorldConfig(ctx: GenericApplicationContext) {
     init {
         beans {
             bean<HelloWorld>()
