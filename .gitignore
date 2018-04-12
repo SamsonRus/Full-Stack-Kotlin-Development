@@ -7,3 +7,11 @@ backend/api/build/
 backend/component/build/
 backend/component/out/
 target/
+out/
+*.class
+*.log
+*.jar
+hs_err_pid*
+*.iml
+
+!/gradle/wrapper/gradle-wrapper.jar
