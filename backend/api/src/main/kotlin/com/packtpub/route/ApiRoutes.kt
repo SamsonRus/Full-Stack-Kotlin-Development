@@ -19,7 +19,7 @@ class ApiRoutes(
     fun apiRouter() = router {
         (accept(MediaType.APPLICATION_JSON_UTF8) and "/api").nest {
             "/project".nest {
-                POST("/save") { req ->
+                POST("/") { req ->
                     req.bodyToMono<ProjectDTO>().map { project ->
                         val violations = validator.validate(project)
                         if (violations.isNotEmpty()) {
