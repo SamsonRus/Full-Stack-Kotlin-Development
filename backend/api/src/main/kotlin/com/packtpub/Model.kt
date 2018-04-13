@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude
 import org.hibernate.validator.constraints.URL
 import javax.validation.constraints.Size
 
+
 data class ProjectDTO(
         @get:Size(min = 2) val name: String, @get:URL val url: String, @get:Size(min = 2)
         val owner: String, val language: Language) : Validatable()

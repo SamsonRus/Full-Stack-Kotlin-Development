@@ -3,6 +3,7 @@ package com.packtpub.views
 import kotlinx.html.*
 import kotlinx.html.stream.createHTML
 
+
 fun index(header: String): String {
     val links = mapOf("Kotlin" to "https://github.com/JetBrains/kotlin",
             "Spring" to "https://github.com/spring-projects/spring-framework",

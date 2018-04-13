@@ -10,6 +10,7 @@ import org.springframework.web.reactive.function.server.ServerResponse
 import org.springframework.web.reactive.function.server.router
 import reactor.core.publisher.Mono
 
+
 class ViewRoutes(private val projectService: ProjectService) {
     @Bean
     fun viewRouter() = router {
