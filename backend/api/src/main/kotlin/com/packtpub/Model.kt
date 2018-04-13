@@ -9,6 +9,9 @@ data class ProjectDTO(
         @get:Size(min = 2) val name: String, @get:URL val url: String, @get:Size(min = 2)
         val owner: String, val language: Language) : Validatable()
 
+fun ProjectDTO.toProject() = Project(name, url, owner, language)
+fun Project.toDto() = ProjectDTO(name, url, owner, language)
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
 open class Validatable(
         var fieldErrors: List<FieldErrorDTO>? = null, var genericError: String? = null)
