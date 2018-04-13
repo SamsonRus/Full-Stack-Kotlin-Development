@@ -4,8 +4,8 @@ build/
 .gradle/
 backend/build/
 backend/api/build/
-backend/component/build/
-backend/component/out/
+backend/project/build/
+backend/project/out/
 target/
 out/
 *.class

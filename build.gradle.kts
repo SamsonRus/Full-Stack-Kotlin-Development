@@ -9,6 +9,7 @@ allprojects {
 plugins {
     base
 }
+
 dependencies {
     subprojects.forEach {
         archives(it)
